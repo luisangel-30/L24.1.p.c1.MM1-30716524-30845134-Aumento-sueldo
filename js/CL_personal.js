@@ -28,7 +28,4 @@ export default class CL_personal {
         else
         return this.sueldo * 0.10;
     }
-    devolveraumento(){
-        return this.aumento();
-    }
 }

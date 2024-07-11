@@ -20,8 +20,8 @@ empresa.procesarpersonal(perso5);
 let salida = document.getElementById("salida");
 
 salida.innerHTML=`
-<br> ${perso1.nombre} tiene un aumento de :${perso1.devolveraumento()}
-<br> ${perso2.nombre} tiene un aumento de :${perso2.devolveraumento()}
+<br> ${perso1.nombre} tiene un aumento de :${perso1.aumento()}
+<br> ${perso2.nombre} tiene un aumento de :${perso2.aumento()}
 <br> ${perso3.nombre} tiene un aumento de :${perso3.aumento()}
 <br> ${perso4.nombre} tiene un aumento de :${perso4.aumento()}
 <br> ${perso5.nombre} tiene un aumento de :${perso5.aumento()}
